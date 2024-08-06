@@ -1,0 +1,173 @@
+.imo {
+    width: 200px;
+    height: 70px;
+    margin-left: 20px;
+}
+nav {
+    background-color:transparent;
+    
+}
+.nav-link {
+    color: rgb(183, 175, 175);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: larger;
+}
+.nav-link:hover {
+    color: white;
+}
+.im {
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+    .imo {
+        width: 150px;
+        height: 50px;
+    }
+    .nav-link {
+        font-size: medium;
+    }
+    .nav-item.ms-3 {
+        margin-left: 1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .imo {
+        width: 100px;
+        height: 40px;
+    }
+    .nav-link {
+        font-size: small;
+    }
+    .nav-item.ms-3 {
+        margin-left: 0.5rem !important;
+    }
+    .form-control, .btn {
+        font-size: small;
+    }
+}
+.homepage{
+    background-image: url('./Frame\ 36.png');
+    background-size: cover;
+    height: fit-content;
+   
+}
+.head1{ 
+ margin-top: 200px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color: rgb(250, 249, 249);
+        font-size: 80px;
+        margin-left: 100px;
+       text-align: center;
+       font-size: 190px; 
+
+     
+      
+}
+.content{
+    text-align: center;
+}
+.p1{
+    color: aliceblue; 
+    text-align: center;
+    margin-left: 10px;
+    font-size: larger;
+  
+}
+.btn1{
+    padding: 20px; 
+    width: 450px; 
+    border-radius:20px;  
+    margin-left: 80px;  
+    margin-top: 50px;
+    background-color: rgba(61, 184, 165, 0.3); 
+    border: none;
+    color: #fafafa;
+}
+.btn1:hover{
+    border:2px solid rgb(13, 93, 67);
+
+}
+.head2{
+    /* margin-top: 20px; */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(165, 155, 155);
+    font-size: 80px;
+    margin-left: 100px;
+   text-align: center;
+   font-size: 90px; 
+
+}
+.Blogs{
+    
+    background-color: #080A0B;
+}
+.card{
+    height: 600px;
+    width: 600px;
+    background-color: #181919;
+    color: #fafafa;
+}
+.card img{
+    height: 400px;
+    width: 600px;
+}
+.row{
+    column-gap:170px ;
+}
+.card .btn{
+    background-color: rgba(61, 184, 165, 0.3); 
+    color: #fafafa;
+    border: none;
+}
+.Add new{
+    
+}
+.im2{
+    width: 20px;
+    height: 20px;
+}
+/* Add this to your static/css/styles.css file */
+
+/* Add this to your static/css/home.css file */
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Black shadow with transparency */
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-container:hover .img-overlay {
+    opacity: 1;
+}
+
+.overlay-text {
+    font-size: 1.2rem;
+}
